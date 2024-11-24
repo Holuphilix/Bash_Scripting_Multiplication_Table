@@ -30,9 +30,7 @@ Choose whether they would like to see: A full multiplication table (from 1 to 10
 
 ### Task 1: Implement Version Control with Git
 
-#### Step 1.1: Initialize Git Repository
-
-To begin, create the project directory named __Bash_Scripting__, navigate into it, and initialize it as a Git repository.
+  -__Initialize Git Repository:__ To begin, create the project directory named __Bash_Scripting__, navigate into it, and initialize it as a Git repository.
 
 __Commands:__
 ```bash
@@ -175,7 +173,7 @@ fi
 
 ![Full Multiplication](./Img/Full_table_multiplication.png)
 
-### 1.4 Stage and Commit the Template to Git
+### Task 5: Stage and Commit the Template to Git
 
 In this step, I will add the website files to the Git repository, configure my global Git settings, and make an initial commit with a descriptive message.
 
@@ -185,7 +183,18 @@ In this step, I will add the website files to the Git repository, configure my g
 
 - Commit Changes: Commit the changes with a clear and descriptive message.
 
-### Task 1.5 Push the code to your Github repository
+__Commands:__
+```bash
+
+git add .
+git config --global user.name "YourName"
+git config --global user.email "YourEmail"
+git commit -m "Initial commit for Bash Scripting Multiplication Table project"
+```
+
+![Git add, set up global configuration and commit](./Img/git_add_commit.png)
+
+### Task 6: Push the code to your Github repository
 
 After initializing your Git repository and adding your Bash Scripting Multiplication table, the next step is to push your code to a remote repository on GitHub. This step is crucial for version control and collaboration.
 
@@ -207,3 +216,6 @@ git remote add origin https://github.com/Holuphilix/Bash_Scripting_Multiplicatio
 git branch -M main
 git push -u origin main
 ```
+
+![Git commit, and push](./Img/git_push_repository.png)
+
